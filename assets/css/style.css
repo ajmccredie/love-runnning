@@ -32,9 +32,28 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+
+/* balancing the line height */
+
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     float: right;
     list-style-type: none;
     margin: 30px;
     direction: rtl;
 }
+ #menu a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+ }
+
+ .active {
+    border-bottom: 1px solid #3a3a3a;
+ }
